@@ -1,1 +1,1 @@
-# eidos-github-template
+# Anatomical Foundation Models for Brain MRIs
