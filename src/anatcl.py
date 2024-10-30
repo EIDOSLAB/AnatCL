@@ -10,10 +10,20 @@ import models
 WEIGHTS_URLS = {
     'anatcl-g3': {
         'resnet18': {
-            'local': [None, None, None, None, None],
+            'local': [
+                "https://gitlab.di.unito.it/barbano/anatcl-pretrained/-/raw/main/resnet18-anatcl-l3/fold0.pth",
+                "https://gitlab.di.unito.it/barbano/anatcl-pretrained/-/raw/main/resnet18-anatcl-l3/fold1.pth",
+                "https://gitlab.di.unito.it/barbano/anatcl-pretrained/-/raw/main/resnet18-anatcl-l3/fold2.pth",
+                "https://gitlab.di.unito.it/barbano/anatcl-pretrained/-/raw/main/resnet18-anatcl-l3/fold3.pth",
+                "https://gitlab.di.unito.it/barbano/anatcl-pretrained/-/raw/main/resnet18-anatcl-l3/fold4.pth",
+            ],
             'global': [
                 "https://gitlab.di.unito.it/barbano/anatcl-pretrained/-/raw/main/resnet18-anatcl-g3/fold0.pth",
-                None, None, None, None]
+                "https://gitlab.di.unito.it/barbano/anatcl-pretrained/-/raw/main/resnet18-anatcl-g3/fold1.pth",
+                "https://gitlab.di.unito.it/barbano/anatcl-pretrained/-/raw/main/resnet18-anatcl-g3/fold2.pth",
+                "https://gitlab.di.unito.it/barbano/anatcl-pretrained/-/raw/main/resnet18-anatcl-g3/fold3.pth",
+                "https://gitlab.di.unito.it/barbano/anatcl-pretrained/-/raw/main/resnet18-anatcl-g3/fold4.pth",
+            ]
         }
     }
 }
