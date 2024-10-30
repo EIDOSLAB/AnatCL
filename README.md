@@ -37,3 +37,16 @@ Coming soon
 ## Testing code
 
 Coming soon
+
+## Citing
+
+If you find our models useful please do not forget to cite this work as
+
+```bibtex
+@article{barbano2024anatomical,
+  title={Anatomical Foundation Models for Brain MRIs},
+  author={Barbano, Carlo Alberto and Brunello, Matteo and Dufumier, Benoit and Grangetto, Marco},
+  journal={arXiv preprint arXiv:2408.07079},
+  year={2024}
+}
+```
