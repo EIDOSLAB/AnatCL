@@ -1,6 +1,12 @@
 # Anatomical Foundation Models for Brain MRIs
 
 
+## Installing
+
+```
+pip3 install git+https://github.com/carloalbertobarbano/AnatCL.git
+```
+
 ## Pretrained Models
 
 ```python
