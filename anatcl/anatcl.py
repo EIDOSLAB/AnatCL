@@ -4,7 +4,7 @@ Date: 29/10/24
 """
 import torch
 import torch.nn as nn
-import models
+import anatcl.models as models
 
 
 WEIGHTS_URLS = {
